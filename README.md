@@ -1,6 +1,12 @@
 # [Project 1: Noise](https://github.com/CIS-566-Fall-2022/hw01-fireball-base)
 
-# [Live Demo]
+# [Live Demo](https://jeff-ling.github.io/hw01-fireball/)
+
+<p align="center">
+  <img width="640" height="360" src="https://github.com/Jeff-Ling/hw01-fireball/blob/master/screenshot/1.png">
+  <img width="640" height="360" src="https://github.com/Jeff-Ling/hw01-fireball/blob/master/screenshot/2.png">
+  <img width="640" height="360" src="https://github.com/Jeff-Ling/hw01-fireball/blob/master/screenshot/3.png">
+</p>
 
 I used perlinNoise3D for the low-frequency, high-amplitude displacement of my firball surface and fbm3D for the higher-frequency, lower-amplitude layer. 
 In the vertex shader, I compute a noiseValue for each vertex position. I added time (u_Time) to the position to give a time-evolving effect. This noise value is then used for displacement and is passed to the fragment shader.
