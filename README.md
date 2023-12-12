@@ -1,6 +1,6 @@
 # [Project 1: Noise](https://github.com/CIS-566-Fall-2022/hw01-fireball-base)
 
-# [Live Demo](https://jeff-ling.github.io/firball-with-houdini/)
+# [Live Demo](https://jeff-ling.github.io/firball-with-WebGL/)
 
 <p align="center">
   <img width="640" height="360" src="https://github.com/Jeff-Ling/hw01-fireball/blob/master/screenshot/1.png">
